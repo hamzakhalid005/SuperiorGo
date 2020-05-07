@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainpage">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/bookseat"
+        android:src="@drawable/bookseat"
+        android:onClick="schedule"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/bookTV"
+        android:text="BOOK SEAT"
+        android:layout_below="@id/bookseat"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/buyticket"
+        android:src="@drawable/buy"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/buytv"
+        android:text="Buy ticket"
+        android:layout_below="@id/buyticket"
+        android:textSize="20dp"
+        android:layout_marginLeft="250dp"
+
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/mybooking"
+    android:src="@drawable/mytickets"
+    android:layout_below="@id/bookseat"
+    android:layout_marginTop="70dp"
+    android:layout_marginRight="200dp"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookingTV"
+        android:layout_below="@id/mybooking"
+        android:text="MY BOOKINGS"
+      android:layout_marginLeft="50dp"
+
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/addroute"
+        android:src="@drawable/route"
+        android:layout_below="@id/buyticket"
+        android:layout_marginTop="70dp"
+       android:layout_marginLeft="160dp"
+        android:onClick="route"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/routeTV"
+        android:layout_below="@id/addroute"
+        android:text="ADD ROUTE"
+        android:layout_marginLeft="230dp"
+
+        android:textSize="20dp"
+        android:onClick="schedule"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="LOG OUT"
+        android:onClick="logout"
+        android:layout_below="@id/bookingTV"
+
+
+        />
+    </RelativeLayout>

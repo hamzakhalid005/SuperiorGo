@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seats">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat1"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="250dp"
+        android:layout_marginTop="50dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat2"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="170dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat3"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="250dp"
+        android:layout_below="@id/seat1"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat4"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="170dp"
+
+        android:layout_below="@id/seat2"
+        android:layout_marginLeft="100dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat5"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="250dp"
+        android:layout_below="@id/seat3"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat6"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="170dp"
+
+        android:layout_below="@id/seat4"
+        android:layout_marginLeft="100dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat7"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="250dp"
+        android:layout_below="@id/seat5"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat8"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="170dp"
+
+        android:layout_below="@id/seat6"
+        android:layout_marginLeft="100dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat9"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="250dp"
+        android:layout_below="@id/seat7"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat10"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="170dp"
+
+        android:layout_below="@id/seat8"
+        android:layout_marginLeft="100dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat11"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="250dp"
+        android:layout_below="@id/seat9"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat12"
+        android:src="@drawable/seatsfinal"
+        android:layout_marginRight="170dp"
+
+        android:layout_below="@id/seat10"
+        android:layout_marginLeft="100dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat13"
+        android:src="@drawable/seatsfinal"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="300dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat14"
+        android:src="@drawable/seatsfinal"
+
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="300dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat15"
+        android:src="@drawable/seatsfinal"
+
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="300dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat16"
+        android:src="@drawable/seatsfinal"
+
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="300dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat17"
+        android:src="@drawable/seatsfinal"
+
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="300dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seat18"
+        android:src="@drawable/seatsfinal"
+
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="300dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOK"
+        android:id="@+id/book"
+        android:layout_below="@id/seat18"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

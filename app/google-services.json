@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "375932135075",
+    "firebase_url": "https://superiorgo.firebaseio.com",
+    "project_id": "superiorgo",
+    "storage_bucket": "superiorgo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375932135075:android:71a7a15de0534dcf8ec116",
+        "android_client_info": {
+          "package_name": "com.example.superiorgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375932135075-d56l2l7ftvpg8v8up8lroespuo2grtfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjgrktntITLeEtQK9JljO87tLsuOeN6GM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375932135075-d56l2l7ftvpg8v8up8lroespuo2grtfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
